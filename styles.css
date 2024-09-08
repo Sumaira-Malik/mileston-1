@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+body{
+    margin: 0;
+    background:url(https://img.freepik.com/premium-photo/top-view-office-desk-with-office-tools-computer-laptop-wood-table-background-with-copy-space-generative-ai_3535-3556.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+
+}
+div{
+    width: 90%;
+    padding: 5px;
+    margin: auto;
+    background-color: #ffffff15;
+}
+header {
+    text-align: center;
+    background-color: #1B6392;
+    
+}
+h1{
+    font-weight: 500;
+    color: #fff;
+    font-size: 2rem;
+    padding: 10px;
+    font-family: "Merriweather", serif;
+    font-style: normal;
+}
+p{
+    color: #fff;
+    font-size: 1.5rem;
+}
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+section {
+    background: #ffffff13;
+    border-bottom: 3px solid rgb(17, 16, 16);
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+ul li{
+    font-size: 1.5rem;
+}
+button{
+    background-color: #1B6392;
+    padding: 10px;
+    font-size: 1.1rem;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: #fff;
+}
+@media (max-width: 600px) {
+    body {
+        padding: 5px;
+    }
+
+    img {
+        width: 100px;
+        height:100px;}
+        h1{
+            font-weight: 300;
+            color: #fff;
+            font-size: 1.4rem;
+            padding: 20px;
+            font-family: "Merriweather", serif;
+            font-style: normal;
+        }
+        
+        
+}; 
