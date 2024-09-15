@@ -1,50 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Resume</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div>
-      <header>
-        <h1>Sumaira Malik</h1>
-        <p>Email: sumairamalik0012@gmail.com | Mobile: 03486579091</p>
-        <img
-          src="./images/WhatsApp Image 2024-08-26 at 15.43.42_ca290a3e.jpg"
-          alt="Profile Picture"
-        />
-      </header>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="resume-container">
+        <div class="profile-picture" id="profile-picture">
+            <img src="./images/WhatsApp Image 2024-08-26 at 15.43.42_ca290a3e.jpg" alt="Profile Picture">
+        </div>
 
-      <section id="education">
-        <h2>Education:</h2>
-        <ul>
-          <li>
-            Bachelor of Science in Computer Science - University of Karachi
-            (2019-2023)
-          </li>
-        </ul>
-      </section>
+        <div class="resume-content" id="resume-content">
+            <h1>Sumaira Malik</h1>
+            <h2>Frontend Developer</h2>
 
-      <section id="skills">
-        <h2>Skills:</h2>
-        <ul>
-          <li>HTML, CSS, JavaScript</li>
-          <li>TypeScript</li>
-          <li>React, Node.js</li>
-        </ul>
-      </section>
+            <section id="personal-info">
+                <h3>Personal Information</h3>
+                <p>Email: sumairamalik@gmail.com</p>
+                <p>Mobile: 03486579090</p>
+            </section>
 
-      <section id="experience">
-        <h2>Work Experience:</h2>
-        <ul>
-          <li>I have 1 year of experience in frontend development</li>
-        </ul>
-      </section>
-      <button id="toggleSkills">Toggle Skills</button>
+            <section id="skills-section">
+                <h3>Skills</h3>
+                <ul>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>TypeScript</li>
+                    <li>React, Node.js</li>
+                    <li>Graphic Designer</li>
+                </ul>
+            </section>
+
+            <section id="education-section">
+                <h3>Education</h3>
+                <p>Bachelor of Science in Computer Science - University of Karachi
+                    (2019-2023)</p>
+            </section>
+
+            <section id="experience-section">
+                <h3>Experience</h3>
+                <p>I have 2 year of experience in frontend development</p>
+                <p>4 years experience in Graphic</p>
+            </section>
+        </div>
+
+        <button id="toggle-skills">Toggle Skills</button>
+        <button id="social-media">Visit My Social Media</button>
     </div>
 
-    <script src="index.js"></script>
-  </body>
+    <script src="index.js" defer></script>
+</body>
 </html>

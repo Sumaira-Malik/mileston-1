@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jacques+Francois+Shadow&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+body{
+    margin: 0;
+    background-image: url(https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_700/MTkzOTUzODU0MDkyODc5MzY1/particlesjs-examples.gif);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+
+}
+
+.resume-container {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-image: url(https://woorise.com/wp-content/uploads/2021/03/Online-event-registration.png);
+    border: 5px solid white;
+
+}
+.profile-picture {
+    width: 100%;
+}
+.profile-picture img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: auto;
+    border: 5px solid white;
+}
+
+h1{
+    font-weight: 500;
+    color: white;
+    font-size: 3rem;
+    padding: 10px;
+    font-family: "Jacques Francois Shadow", serif;
+    font-style: normal;
+}
+h2{
+    font-weight: 200;
+    color:white;
+    font-size: 1.8rem;
+    padding: 10px;
+    font-family: "Merriweather", serif;
+    font-style: normal;
+}
+#personal-info{
+    border: 2px solid white;
+    margin: 50px;
+}
+h3{
+    font-weight: 200;
+    color: white;
+    font-size: 1.8rem;
+    padding: 10px;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    font-style: normal;
+}
+
+p{
+    color:white;
+    font-size: 1.5rem;
+}
+
+#skills-section{
+    border: 2px solid white;
+    margin: 50px;
+}
+ul li{
+    list-style: none;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #b2e3eb;
+    padding: 10px;
+
+}
+#education-section{
+    border: 2px solid white;
+    margin: 50px;
+}
+#experience-section{
+    border: 2px solid white;
+    margin: 50px;
+
+}
+.resume-content {
+    display: none; /* Initially hidden */
+    margin-top: 20px;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+button {
+    background-color: #9260fff5;    
+    border-radius: 15px;
+    border:2px solid white;
+    margin: 10px;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+button:hover {
+    transform: scale(1.1);
+    transition: 1s;
+
+}
+
+#toggle-skills {
+    background-color: #2872a7a8;
+}
+
+#toggle-skills:hover {
+    background-color: #A534FE;
+}
+
+#social-media {
+    background-color: #17a2b8;
+}
+
+#social-media:hover {
+    background-color: #A534FE;
+}
+
+
+
+
+
